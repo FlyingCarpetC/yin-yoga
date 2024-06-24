@@ -1,0 +1,46 @@
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
+
+/*Asterisk wildcard used to override browser default styles*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*General styles*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+    font-family: "Julius Sans One", sans-serif;
+}
+
+/*Header*/
+header {
+    background-color: #ffcc8f;
+}
+
+/*Remove hyperlink from header*/
+header a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: "Julius Sans One", sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: #68a8f1;
+    text-emphasis: bold;
+}
+
+/*Main Content*/
+main {
+    background-color: aqua;
+}
+/*Footer*/
+footer {
+    background-color: goldenrod;
+}
