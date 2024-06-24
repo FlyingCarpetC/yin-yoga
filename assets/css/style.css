@@ -16,12 +16,13 @@ body {
     flex-direction: column;
     color: #000000;
     font-family: "Julius Sans One", sans-serif;
+    
 }
 
 /*Header*/
 header {
     background-color: #ffcc8f;
-}
+   }
 
 /*Remove hyperlink from header*/
 header a {
@@ -34,11 +35,41 @@ h1 {
     letter-spacing: 2px;
     color: #68a8f1;
     text-emphasis: bold;
+    text-align: center;
 }
+
+#heading {
+    font-size: 200%;
+}
+
+#heading-two {
+    font-size: 100px;
+    text-transform: lowercase;
+    text-align: center;
+    color: #68a8f1;
+}
+/*style the nav*/
+#nav-bar {
+    font-size: large;
+    letter-spacing: 4px;
+    list-style-type: none;
+    color: inherit;
+    }
+
+
+nav {
+    background-color: #ffcc8f;
+    width: 100%;
+    box-shadow: 1px 1px 1px 1px #68a8f1;
+    display: block;
+}
+
 
 /*Main Content*/
 main {
     background-color: aqua;
+    /*push header down to allow space for nav items*/
+    margin-top: 60px;
 }
 /*Footer*/
 footer {
