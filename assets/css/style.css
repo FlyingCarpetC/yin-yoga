@@ -27,6 +27,7 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px #000000;
+    /*move x to top right corner*/
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -63,15 +64,16 @@ h1 {
     letter-spacing: 4px;
     list-style-type: none;
     color: inherit;
+    font-weight: bold;
     }
 
 /*add space between nav columns*/
 #nav-bar > li {
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 }
 
 .hover {
-    background-color: yellow;
+    background-color: #68a8f1;
 }
 
 nav {
@@ -101,9 +103,55 @@ nav {
 main {
     background-color: aqua;
     /*push header down to allow space for nav items*/
-    margin-top: 47px;
+    margin-top: 49px;
 }
 /*Footer*/
 footer {
     background-color: goldenrod;
 }
+
+/*media query for tablets and larger*/
+@media screen and (min-width: 768px) {
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #nav-bar {
+        /*showing nav bar list in a row*/
+        display: flex;
+    }
+
+    /*add space between nav items*/
+    #nav-bar > li {
+        padding-left: 1rem;
+        word-wrap: normal;
+    }
+
+    /*hide the x*/
+    .dropdown-label {
+        display: none;
+    }
+
+    #heading {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /*Main content*/
+    main {
+        margin-top: 95px;
+    }
+}
+
+/*Large devices (laptops and desktops, 992px and up)*/
+@media screen and (min-width: 992px) {
+    #nav-bar a:hover {
+        background-color: #68a8f1;
+    }
+}
+
