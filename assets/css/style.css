@@ -128,8 +128,6 @@ footer section {
 
 #footer-icon {
     background-color: #ffcc8f;
-    text-align: left;
-    padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
