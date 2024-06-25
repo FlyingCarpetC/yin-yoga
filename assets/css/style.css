@@ -102,6 +102,8 @@ nav {
 /*Main Content*/
 main {
     background-color: aqua;
+    /*push footer down by enlargin main element*/
+    flex: 1 0auto;
     /*push header down to allow space for nav items*/
     margin-top: 49px;
 }
