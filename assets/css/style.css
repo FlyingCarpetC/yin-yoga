@@ -103,13 +103,18 @@ nav {
 main {
     background-color: aqua;
     /*push footer down by enlargin main element*/
-    flex: 1 0auto;
+    flex: auto;
     /*push header down to allow space for nav items*/
     margin-top: 49px;
 }
 /*Footer*/
-footer {
-    background-color: goldenrod;
+#footer-icon {
+    background-color: #ffcc8f;
+    text-align: left;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
 
 /*media query for tablets and larger*/
