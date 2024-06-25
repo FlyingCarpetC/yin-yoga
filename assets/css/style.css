@@ -1,5 +1,6 @@
 /*Google fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
 
 
 /*Asterisk wildcard used to override browser default styles*/
@@ -15,7 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     color: #000000;
-    font-family: "Julius Sans One", sans-serif;
+    font-family: "comfortaa", sans-serif;
     
 }
 
@@ -121,6 +122,8 @@ main {
     display: flex;
     width: 90%;
     margin: 20px auto;
+    align-items: center;
+   justify-content: center
 }
 
 #explained h2 {
@@ -148,21 +151,17 @@ main {
     display: flex;
     align-self: center;
     justify-content: center;
-    width: 45vw;
-    height: 45vw;
+    height: 90vw;
+    width: 90vw;
+    max-width: 300px;
+    max-height: 300px;
 }
 /*Generic footer style*/
 footer {
     background-color: #ffcc8f;
+    width: 100%;
     
 }
-
-/*divide footer into columns */
-footer section {
-    background-color: #ffcc8f;
-    display: flex;
-    align-items: flex-start;
-  }
 
 
 /*Center footer header*/
@@ -213,6 +212,26 @@ footer section {
     main {
         margin-top: 95px;
     }
+
+/*Explained section*/
+#practice,
+#principles,
+#explained-image {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    }
+
+    #practice > div,
+    #principles > div,
+    #explained-image > div {
+        width: 80%;
+       }
+        
+        #principles > div {
+            text-align: end;
+            align-self: flex-end;
+        }
 }
 
 /*Large devices (laptops and desktops, 992px and up)*/
