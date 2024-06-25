@@ -22,6 +22,7 @@ body {
 /*Header*/
 header {
     background-color: #ffcc8f;
+    margin-bottom: 20px;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -101,11 +102,54 @@ nav {
 }
 /*Main Content*/
 main {
-    background-color: aqua;
+    background-color: #ffffff;
     /*push footer down by enlargin main element*/
     flex: auto;
     /*push header down to allow space for nav items*/
     margin-top: 49px;
+}
+
+.headingtwo {
+    text-align: center;
+    text-emphasis: bold;
+    font-size: 250%;
+    margin-top: 20px;
+}
+
+/*explained section*/
+#explained {
+    display: flex;
+    width: 90%;
+    margin: 20px auto;
+}
+
+#explained h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    }
+
+#practice > div,
+#principles > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+#explained p {
+    padding: 0 20px;
+}
+
+#explained hr {
+    border-top: 1px solid #68a8f1;
+    margin: 5px 0;
+}
+
+#explained-image {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 45vw;
+    height: 45vw;
 }
 /*Generic footer style*/
 footer {
