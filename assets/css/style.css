@@ -107,7 +107,25 @@ main {
     /*push header down to allow space for nav items*/
     margin-top: 49px;
 }
-/*Footer*/
+/*Generic footer style*/
+footer {
+    background-color: #ffcc8f;
+    
+}
+
+/*divide footer into columns */
+footer section {
+    background-color: #ffcc8f;
+    display: flex;
+    align-items: flex-start;
+  }
+
+
+/*Center footer header*/
+.header-center {
+    text-align: center;
+}
+
 #footer-icon {
     background-color: #ffcc8f;
     text-align: left;
