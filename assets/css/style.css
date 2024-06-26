@@ -39,7 +39,7 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-}
+    }
 
 h1 {
     font-family: "Julius Sans One", sans-serif;
@@ -117,62 +117,33 @@ main {
     margin-top: 20px;
 }
 
+#picture {
+    width: 100%;
+    background: url(assets/images/meditate.jpeg) no repeat center center/cover;
+    height: auto
+   }
+
+
 /*explained section*/
 #explained {
     display: flex;
-    flex-direction: row;
-    width: 90%;
-    margin: 20px auto;
-   }
-
-#explained h2 {
-    margin-bottom: 20px;
-    text-align: center;
-    }
-
-#practice > div,
-#principles > div {
-    line-height: 20px;
-    margin-bottom: 20px;
-    padding: 20px;
-}
-
-#explained p {
-    padding: 0 20px;
-}
-
-#explained hr {
-    border-top: 1px solid #68a8f1;
-    margin: 5px 0;
-}
-
-#explained-image {
-    display: flex;
-    align-self: center;
-    justify-content: center;
-    height: 90vw;
-    width: 90vw;
-    max-width: 300px;
-    max-height: 300px;
 }
 /*Generic footer style*/
 footer {
     background-color: #ffcc8f;
     width: 100%;
+    height: 40px;
     
 }
 
 
-/*Center footer header*/
-.header-center {
-    text-align: center;
-}
 
 #footer-icon {
     background-color: #ffcc8f;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    align-items: baseline;
 }
 
 /*media query for tablets and larger*/
