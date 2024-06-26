@@ -120,11 +120,10 @@ main {
 /*explained section*/
 #explained {
     display: flex;
+    flex-direction: row;
     width: 90%;
     margin: 20px auto;
-    align-items: center;
-   justify-content: center
-}
+   }
 
 #explained h2 {
     margin-bottom: 20px;
