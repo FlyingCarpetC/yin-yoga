@@ -103,8 +103,7 @@ nav {
 }
 /*Main Content*/
 main {
-    background-color: #ffffff;
-    /*push footer down by enlargin main element*/
+   /*push footer down by enlargin main element*/
     flex: auto;
     /*push header down to allow space for nav items*/
     margin-top: 49px;
@@ -119,8 +118,7 @@ main {
 
 #picture {
     width: 100%;
-    background: url(assets/images/meditate.jpeg) no repeat center center/cover;
-    height: auto
+    height:auto;
    }
 
 
