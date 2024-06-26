@@ -40,26 +40,22 @@ header a {
     text-decoration: none;
     color: inherit;
     }
+/*push section down to allow space for heading*/
+section {
+    margin-top: 60px;
+}
 
 h1 {
     font-family: "Julius Sans One", sans-serif;
     text-transform: capitalize;
     letter-spacing: 2px;
-    color: #68a8f1;
     text-emphasis: bold;
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-#heading {
-    font-size: 200%;
-}
 
-#heading-two {
-    font-size: 100%;
-    text-transform: lowercase;
-    text-align: center;
-    color: #68a8f1;
-}
 /*style the nav*/
 #nav-bar {
     font-size: large;
@@ -106,26 +102,57 @@ main {
    /*push footer down by enlargin main element*/
     flex: auto;
     /*push header down to allow space for nav items*/
-    margin-top: 49px;
+    margin-top: 80px;
 }
 
-.headingtwo {
-    text-align: center;
-    text-emphasis: bold;
-    font-size: 250%;
+/*styled for headings and paragraphs*/
+h3 {
     margin-top: 20px;
+    }
+
+#heading {
+    font-size: 200%;
+    text-align: left;
 }
+
+#heading-two {
+    text-transform: uppercase;
+    text-emphasis: bold;
+    text-align: center;
+    color: #68a8f1;
+  
+}
+
+.left-blue {
+    text-align: left;
+    color: #68a8f1;
+}
+
 
 #picture {
     width: 100%;
-    height:auto;
+    height: auto;
+    padding: 20px;
    }
 
 
 /*explained section*/
-#explained {
-    display: flex;
+#section {
+    padding: 20px;
+    line-height: 20px;
+
 }
+
+#section p {
+    margin-top: 10px;
+    padding-left: 10px;
+    
+}
+
+#section hr {
+    border-top: 1px solid #68a8f1;
+}
+
 /*Generic footer style*/
 footer {
     background-color: #ffcc8f;
@@ -182,24 +209,11 @@ footer {
     }
 
 /*Explained section*/
-#practice,
-#principles,
-#explained-image {
+#section {
     display: flex;
     flex-direction: column;
     width: 100%;
-    }
-
-    #practice > div,
-    #principles > div,
-    #explained-image > div {
-        width: 80%;
-       }
-        
-        #principles > div {
-            text-align: end;
-            align-self: flex-end;
-        }
+}
 }
 
 /*Large devices (laptops and desktops, 992px and up)*/
