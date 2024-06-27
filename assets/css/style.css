@@ -48,14 +48,22 @@ section {
 
 h1 {
     font-family: "Julius Sans One", sans-serif;
-    text-transform: capitalize;
     letter-spacing: 2px;
-    text-emphasis: bold;
-    text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #68a8f1;
+    margin-top: 40px;
+}
+
+/*styled for headings and paragraphs*/
+h3 {
+    margin-top: 20px;
+}
 
 /*style the nav*/
 #nav-bar {
@@ -109,30 +117,15 @@ main {
     flex-direction: column;
 }
 
-/*styled for headings and paragraphs*/
-h3 {
-    margin-top: 20px;
-}
-
 #heading {
     font-size: 200%;
     text-align: left;
-}
-
-#heading-two {
-    text-transform: uppercase;
-    text-emphasis: bold;
-    text-align: center;
-    color: #68a8f1;
-    margin-top: 40px;
-
 }
 
 .left-blue {
     text-align: left;
     color: #68a8f1;
 }
-
 
 #picture {
     width: 100%;
@@ -165,7 +158,20 @@ hr {
     list-style-position: inside;
 }
 
+#breath-column {
+    margin: 30px;
+    line-height: 20px;
+}
 
+#postures-column {
+    margin: 30px;
+    line-height: 20px;
+}
+
+#postures-column ol {
+    margin-top: 20px;
+    list-style-position: inside;
+}
 /*Newsletter form*/
 
 #news {
@@ -209,8 +215,6 @@ footer {
     height: 40px;
     align-content: center;
 }
-
-
 
 #footer-icon {
     background-color: #ffcc8f;
@@ -261,9 +265,7 @@ footer {
     main {
         margin-top: 110px;
     }
-
-    /*Explained section*/
-
+    
     #section-column {
         display: flex;
         flex-direction: baseline;
@@ -275,8 +277,19 @@ footer {
         display: flex;
         flex-direction: baseline;
         align-content: flex-start;
+        margin: 20px;
+    
 
     }
+#section-tablet ol {
+    list-style-position: inside;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+#section-tablet li {
+    margin-top: 20px;
+}
 
     #section-wrap {
         display: flex;
@@ -284,19 +297,33 @@ footer {
         align-content: flex-start;
         flex-wrap: wrap;
     }
-}
+    #postures-column {
+    margin: 20px;
+    list-style-position: inside;
+    line-height: 20px;
+    }
+    
+    #postures-column ol {
+    margin: 20px;
+    list-style-position: inside;
+    line-height: 20px;
+    }
 
-#center-tablet {
+    #center-tablet {
     display: flex;
     justify-content: center;
-
-}
-
+    }
 #video {
     display: flex;
     max-width: 400px;
     margin: auto;
 }
+
+}
+
+
+
+
 
 
 
