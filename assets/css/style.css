@@ -120,6 +120,7 @@ h3 {
     text-emphasis: bold;
     text-align: center;
     color: #68a8f1;
+    margin-top: 40px;
   
 }
 
@@ -138,7 +139,7 @@ h3 {
 
 /*explained section*/
 #section-one {
-    padding: 20px;
+    margin: 20px;
     line-height: 20px;
 }
 
@@ -155,12 +156,17 @@ h3 {
 #section p {
     margin-top: 10px;
     padding-left: 10px;
-    
+    }
+
+#section-one hr {
+    border-top: 2px solid #68a8f1;
 }
 
-#section hr {
-    border-top: 1px solid #68a8f1;
+#section-one li {
+    margin-top: 20px;
+    list-style-position: inside;
 }
+
 
 /*Generic footer style*/
 footer {
