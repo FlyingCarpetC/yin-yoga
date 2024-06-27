@@ -103,6 +103,8 @@ main {
     flex: auto;
     /*push header down to allow space for nav items*/
     margin-top: 80px;
+    display: flex;
+    flex-direction: column;
 }
 
 /*styled for headings and paragraphs*/
@@ -150,12 +152,47 @@ h3 {
 
  hr {
     border-top: 2px solid #68a8f1;
-}
+    }
 
 #section li {
     margin-top: 20px;
     list-style-position: inside;
 }
+
+
+   /*Newsletter form*/
+
+   #news {
+    background-color: #ffcc8f;
+    padding: 20px;
+    max-width: 400px;
+   
+   }
+
+   label {
+    display: block;
+    margin-top: 20px;
+    align-items: center;
+   }
+
+#news > h2 {
+    margin-top: 5px;
+
+}
+
+input {
+    height: 30px;
+    width: 100%;
+}
+button
+{margin-top: 10px;
+    width: 100px;
+    height: 30px;
+       } 
+
+    button:hover {
+        background-color: #68a8f1;
+    }
 
 
 /*Generic footer style*/
@@ -164,7 +201,6 @@ footer {
     width: 100%;
     height: 40px;
     align-content: center;
-    
 }
 
 
@@ -175,14 +211,11 @@ footer {
     justify-content: space-evenly;
     list-style-type: none;
    }
+#footer-icon i {
+    font-size: 150%;
+    color:#68a8f1;
+}
 
-   /*Newsletter form*/
-
-   #news {
-    box-sizing: border-box;
-    border-color: #000000;
-    background-color: #ffcc8f;
-   }
 
 /*media query for tablets and larger*/
 @media screen and (min-width: 768px) {
@@ -243,6 +276,11 @@ footer {
 }
 }
 
+#center-tablet {
+    display: flex;
+    justify-content: center;
+
+}
 
 
  
