@@ -178,7 +178,8 @@ footer {
 
    /*Newsletter form*/
 
-   #News {
+   #news {
+    box-sizing: border-box;
     border-color: #000000;
     background-color: #ffcc8f;
    }
