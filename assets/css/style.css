@@ -138,18 +138,8 @@ h3 {
 
 
 /*explained section*/
-#section-one {
-    margin: 20px;
-    line-height: 20px;
-}
-
-#section-two {
-    padding: 20px;
-    line-height: 20px;
-}
-
-#section-three {
-    padding: 20px;
+#section {
+    margin: 30px;
     line-height: 20px;
 }
 
@@ -158,11 +148,11 @@ h3 {
     padding-left: 10px;
     }
 
-#section-one hr {
+ hr {
     border-top: 2px solid #68a8f1;
 }
 
-#section-one li {
+#section li {
     margin-top: 20px;
     list-style-position: inside;
 }
@@ -184,6 +174,13 @@ footer {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+   }
+
+   /*Newsletter form*/
+
+   #News {
+    border-color: #000000;
+    background-color: #ffcc8f;
    }
 
 /*media query for tablets and larger*/
@@ -228,9 +225,20 @@ footer {
 #section-column {
     display: flex;
     flex-direction: baseline;
-    justify-content: space-evenly;
+    align-content: space-evenly;
     margin: 20px;
+}
 
+#section-tablet {
+    display: flex;
+    flex-direction: baseline;
+    justify-content: space-evenly;
+}
+
+#section-wrap {
+    display: flex;
+    flex-direction: baseline;
+    flex-wrap: wrap;
 }
 }
 
