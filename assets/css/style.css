@@ -137,10 +137,19 @@ h3 {
 
 
 /*explained section*/
-#section {
+#section-one {
     padding: 20px;
     line-height: 20px;
+}
 
+#section-two {
+    padding: 20px;
+    line-height: 20px;
+}
+
+#section-three {
+    padding: 20px;
+    line-height: 20px;
 }
 
 #section p {
@@ -209,19 +218,21 @@ footer {
     }
 
 /*Explained section*/
-section {
+
+#section-column {
     display: flex;
     flex-direction: baseline;
     justify-content: space-evenly;
-    align-items: stretch;
-}
+    margin: 20px;
 
+}
+}
 
 
 
  
 
-}
+
 
 /*Large devices (laptops and desktops, 992px and up)*/
 @media screen and (min-width: 992px) {
