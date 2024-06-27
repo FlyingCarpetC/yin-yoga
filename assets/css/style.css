@@ -17,7 +17,7 @@ body {
     flex-direction: column;
     color: #000000;
     font-family: "comfortaa", sans-serif;
-    
+
 }
 
 /*Header*/
@@ -33,13 +33,14 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-   }
+}
 
 /*Remove hyperlink from header*/
 header a {
     text-decoration: none;
     color: inherit;
-    }
+}
+
 /*push section down to allow space for heading*/
 section {
     margin-top: 60px;
@@ -63,10 +64,10 @@ h1 {
     list-style-type: none;
     color: inherit;
     font-weight: bold;
-    }
+}
 
 /*add space between nav columns*/
-#nav-bar > li {
+#nav-bar>li {
     margin-bottom: 2em;
 }
 
@@ -97,9 +98,10 @@ nav {
 .dropdown-label {
     font-size: 2rem;
 }
+
 /*Main Content*/
 main {
-   /*push footer down by enlargin main element*/
+    /*push footer down by enlargin main element*/
     flex: auto;
     /*push header down to allow space for nav items*/
     margin-top: 80px;
@@ -110,7 +112,7 @@ main {
 /*styled for headings and paragraphs*/
 h3 {
     margin-top: 20px;
-    }
+}
 
 #heading {
     font-size: 200%;
@@ -123,7 +125,7 @@ h3 {
     text-align: center;
     color: #68a8f1;
     margin-top: 40px;
-  
+
 }
 
 .left-blue {
@@ -136,8 +138,12 @@ h3 {
     width: 100%;
     height: auto;
     padding: 20px;
-   }
+}
 
+#video {
+    width: 100%;
+    padding: 20px;
+}
 
 /*explained section*/
 #section {
@@ -148,11 +154,11 @@ h3 {
 #section p {
     margin-top: 10px;
     padding-left: 10px;
-    }
+}
 
- hr {
+hr {
     border-top: 2px solid #68a8f1;
-    }
+}
 
 #section li {
     margin-top: 20px;
@@ -160,22 +166,22 @@ h3 {
 }
 
 
-   /*Newsletter form*/
+/*Newsletter form*/
 
-   #news {
+#news {
     background-color: #ffcc8f;
     padding: 20px;
     max-width: 400px;
-   
-   }
 
-   label {
+}
+
+label {
     display: block;
     margin-top: 20px;
     align-items: center;
-   }
+}
 
-#news > h2 {
+#news>h2 {
     margin-top: 5px;
 
 }
@@ -184,16 +190,16 @@ input {
     height: 30px;
     width: 100%;
 }
-button
-{
+
+button {
     margin-top: 10px;
     width: 100px;
     height: 30px;
-       } 
+}
 
-    button:hover {
-        background-color: #68a8f1;
-    }
+button:hover {
+    background-color: #68a8f1;
+}
 
 
 /*Generic footer style*/
@@ -211,10 +217,11 @@ footer {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-   }
+}
+
 #footer-icon i {
     font-size: 150%;
-    color:#68a8f1;
+    color: #68a8f1;
 }
 
 
@@ -234,7 +241,7 @@ footer {
     }
 
     /*add space between nav items*/
-    #nav-bar > li {
+    #nav-bar>li {
         padding-left: 1rem;
         word-wrap: normal;
     }
@@ -255,26 +262,28 @@ footer {
         margin-top: 110px;
     }
 
-/*Explained section*/
+    /*Explained section*/
 
-#section-column {
-    display: flex;
-    flex-direction: baseline;
-    align-content: space-evenly;
-    margin: 20px;
-}
+    #section-column {
+        display: flex;
+        flex-direction: baseline;
+        align-content: space-evenly;
+        margin: 20px;
+    }
 
-#section-tablet {
-    display: flex;
-    flex-direction: baseline;
-    align-content: flex-start;
-}
+    #section-tablet {
+        display: flex;
+        flex-direction: baseline;
+        align-content: flex-start;
 
-#section-wrap {
-    display: flex;
-    flex-direction: baseline;
-    flex-wrap: wrap;
-}
+    }
+
+    #section-wrap {
+        display: flex;
+        flex-direction: baseline;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
 }
 
 #center-tablet {
@@ -283,8 +292,13 @@ footer {
 
 }
 
+#video {
+    display: flex;
+    max-width: 400px;
+    margin: auto;
+}
 
- 
+
 
 
 
@@ -294,4 +308,3 @@ footer {
         background-color: #68a8f1;
     }
 }
-
