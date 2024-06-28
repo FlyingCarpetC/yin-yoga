@@ -57,8 +57,7 @@ h2 {
     text-transform: uppercase;
     text-align: center;
     color: #68a8f1;
-    margin-top: 40px;
-}
+    }
 
 /*styled for headings and paragraphs*/
 h3 {
@@ -112,27 +111,29 @@ main {
     /*push footer down by enlargin main element*/
     flex: auto;
     /*push header down to allow space for nav items*/
-    margin-top: 80px;
     display: flex;
     flex-direction: column;
+    margin-top: 120px;
 }
-
+/*large heading*/
 #heading {
     font-size: 200%;
     text-align: left;
 }
 
+/*class for any heading that is left aligned and blue*/
 .left-blue {
     text-align: left;
     color: #68a8f1;
 }
 
+/*made the pictures responsive*/
 #picture {
     width: 100%;
     height: auto;
     padding: 20px;
 }
-
+/*made the video responsive*/
 #video {
     width: 100%;
     padding: 20px;
@@ -216,6 +217,7 @@ footer {
     align-content: center;
 }
 
+/*spaced out the icons in the footer evenly*/
 #footer-icon {
     background-color: #ffcc8f;
     display: flex;
@@ -223,6 +225,7 @@ footer {
     list-style-type: none;
 }
 
+/*styled the footer icon to remove hyperlinks from icons*/
 #footer-icon i {
     font-size: 150%;
     color: #68a8f1;
